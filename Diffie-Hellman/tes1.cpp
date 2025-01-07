@@ -13,31 +13,17 @@ using std::string;
 using std::runtime_error;
 
 #include <cryptopp/osrng.h>
-using CryptoPP::AutoSeededRandomPool;
-
 #include <cryptopp/integer.h>
-using CryptoPP::Integer;
-
 #include <cryptopp/nbtheory.h>
-using CryptoPP::ModularExponentiation;
 
 #include <cryptopp/dh.h>
-using CryptoPP::DH;
-
 #include <cryptopp/dh2.h>
-using CryptoPP::DH2;
-
 #include <cryptopp/secblock.h>
-using CryptoPP::SecByteBlock;
-
 #include <cryptopp/cmac.h>
-using CryptoPP::CMAC;
-
 #include <cryptopp/aes.h>
-using CryptoPP::AES;
-
 #include <cryptopp/modes.h>
-using CryptoPP::ECB_Mode;
+
+using namespace CryptoPP;
 
 int main(int argc, char** argv)
 {
