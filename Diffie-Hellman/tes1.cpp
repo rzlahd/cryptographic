@@ -43,6 +43,12 @@ int main(int argc, char** argv)
 {
 	try
 	{
+//		we can use this to generate
+//		DH dhGEN;
+//        	dhGEN.AccessGroupParameters().GenerateRandomWithKeySize(rndPool, bits);
+		
+//        	Integer p = dhGEN.GetGroupParameters().GetModulus();
+		
 		// Generated offline using Crypto++.
 		// 3072 bit safe prime.
 		Integer p("0xbfef6a7e54ba72ba09873e7ad1f3dbac8e4ae5e55534974948d67c38e07baa8036f321b6372"
